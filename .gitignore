@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+build/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# ChromaDB / vector store
+chroma_db/
+backend/chroma_db/
+
+# Python cache
+__pycache__/
+backend/__pycache__/
+
+# Data / uploads (keep folder, not contents)
+backend/data/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Screenshots / media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+
+# Vite
+frontend/.vite/
+
+# Misc
+*.bak
+*.tmp
